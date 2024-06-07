@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section {
+  height: 50px;
+  background-color: rgb(6, 54, 54);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+.todo-item {
+  margin: 10px;
+  height: 60px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.input {
+  width: 350px;
+  display: inline;
+  margin: 0 20px;
+}
+
+.delete {
+  font-size: 20px;
+  position: absolute;
+  left: 800px;
+  cursor: pointer;
+}
+
+.delete:active {
+  font-size: 30px;
+}
