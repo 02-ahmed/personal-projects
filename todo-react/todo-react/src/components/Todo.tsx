@@ -15,7 +15,7 @@ const Todo = ({todoList, handleButtonClick, children, handleDelete}:Props) => {
   return (
     <>
       <div className="title-section">
-      <h1>todo</h1>
+      <h1>ToDo</h1>
       </div>
       
       <div className='main-section'>
