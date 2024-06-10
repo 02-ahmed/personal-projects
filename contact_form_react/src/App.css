@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(192, 192, 207);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 550px;
+}
+
+p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+}
