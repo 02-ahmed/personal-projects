@@ -22,11 +22,11 @@ const ContactForm = () => {
           <label htmlFor="query">Query Type</label>
           <div className="col-md-6 query" >
             <input type="radio" className="btn-check col-md-6" name="options" id="option1"/>
-            <label className="btn btn-secondary" htmlFor="option1">Checked</label>
+            <label className="btn btn-secondary" htmlFor="option1">General Enquiry</label>
           </div>
           <div className="col-md-6 query">
           <input type="radio" className="btn-check form-control" name="options" id="option2"/>
-          <label className="btn btn-secondary" htmlFor="option2">Checked</label>
+          <label className="btn btn-secondary" htmlFor="option2">Support Request</label>
           </div>
           
 
